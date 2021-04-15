@@ -1,0 +1,172 @@
+<div class='container'>
+  <header class='header'>
+    <h1 id='title' class="text-center">Rush Performance Survey Form</h1>
+    <p id='description' class='description-text-center'>
+      Thank you for taking the time to complete our survey </p>
+  </header>
+  <form id='survey-form'>
+    <div class='form-group'>
+      <label id='name-label' for ="name">Name</label>
+      
+      <input type='text'
+             name='name'
+             id='name'
+             class='form-control'
+             placeholder='Enter Your Name'
+             required
+             />
+    </div>
+    <div class='form-group'
+         label id='email-label' for='email'>Email</label>
+    
+    <input type='text' 
+           name='email'
+           id='email'
+           class='form-control'
+           placeholder='Enter Your Email'
+           required
+           />
+    </div>
+  
+  <div class='form-group'
+       label id='number-label' for='number'>
+    Age<span class="clue">
+    </span></label>
+  
+  <input type='number'
+         name='age'
+         id='number'
+         min='10'
+         max='99'
+         class='form-control'
+         placeholder='Age'
+         />
+</div>
+
+<div class='form-group'>
+  <p>Which option best describes your current role?</p>
+  <select id='dropdown' name='role'
+          class='form-control' required>
+    <option disabled selected value>Select Current Racing Role</option>
+    
+    <option value='student'>Student Racer</option>
+    <option value='job'>Full Time Racer</option>
+    <option value='spectator'>Full Time Spectator/Supporter</option>
+    <option value="preferNo">Prefer not to say</option>
+        <option value="other">Other</option>
+      </select>
+    </div>
+
+<div class='form-group'>
+  <p>Would you recommend GT class racing to a friend?</p>
+  <label>
+    <input 
+           name='user-recommend'
+           value='Definitely'
+           type='radio'
+           class='input-radio'
+           checked
+           />Definitely</label>
+  <input
+         name='user-recommend'
+         value='Maybe'
+         type='radio'
+         class='input-radio'
+         checked
+         />Maybe</label>
+<input
+       name='user-recommend'
+       value='Not Sure'
+       type='radio'
+       class='input-radio'
+       checked
+       />Not Sure</label>
+</div>
+
+<div class='form-group'>
+  <p>What is your favorite part of GT racing?</p>
+  <select id='most-like' name='most-like'
+          class='form-control' required>
+    <option disabled selected value>Select an option</option>
+    
+    <option
+                        value='Challenges'>Challenging</option>
+    
+    <option
+            value='projects'>Learn new skills</option>
+    
+    <option 
+          value='community'>Community</option>
+    
+    <option
+            value='openSource'>Open source tuning</option>
+  </select></div>
+
+<div class='form-group'>
+  <p>
+    What can we do to improve?
+    <span class='clue'>(Check all thatapply)
+    </span>
+  </p>
+  
+   <label><input
+                 name='prefer'
+                 value='more-tracks'
+                 type='checkbox'
+                 class='input-checkbox'
+                 />More race tracks</label>
+  
+  <label><input
+                 name='prefer'
+                 value='more-vehicles'
+                 type='checkbox'
+                 class='input-checkbox'
+                 />More race cars</label>
+  
+  <label><input
+                 name='prefer'
+                 value='more-equipment'
+                 type='checkbox'
+                 class='input-checkbox'
+                 />More race equipment</label>
+  
+  <label><input
+                 name='prefer'
+                 value='harder-tracks'
+                 type='checkbox'
+                 class='input-checkbox'
+                 />Higher difficulty</label>
+  
+  <label><input
+                 name='prefer'
+                 value='race-groups'
+                 type='checkbox'
+                 class='input-checkbox'
+                 />Different race classes</label>
+  
+  <div class="form-group">
+      <p>Any comments or suggestions?</p>
+      <textarea
+        id="comments"
+        class="input-textarea"
+        name="comment"
+        placeholder="Tell us here"
+      ></textarea>
+    </div>
+  
+  <div class="form-group">
+      <button type="submit" id="submit" class="submit-button">
+        Submit
+      </button>
+    </div>
+  </form>
+</div>
+    
+    
+    
+       
+       
+    
+    
+                   
+  
